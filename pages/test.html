@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+<meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="banner.css">
+		<style>
+		input[type="text"],input[type = "email"],input[type = "url"],input[type="tel"],input[type="number"], select {
+		  width: 100%;
+		  padding: 20px 20px;
+		  margin: 8px 0;
+		  display: block;
+		  border: 3px solid green;
+		  border-radius: 10px;
+		  box-sizing: border-box;
+		}
+
+		input[type="submit"], input[type="reset"] {
+		  width: 45%;
+		}
+
+		input[type=submit]:hover {
+		  background-color: Blue;
+		  color: Orange;
+		}
+		input[type=reset]:hover {
+			background-color: orange;
+			color: blue;
+		}
+		h3{
+		text-align: center;
+		}
+		div {
+		  border-radius: 5px;
+		  padding: 20px;
+			background-color: orange;
+			color: blue;
+		}
+		#text1{
+			height:200px;
+font-size:14pt;
+		}
+		</style>
+  </head>
+
+  <header>
+    <h2>A Beginner's Guide To:</h2>
+<img src="assets/logo.png" class = "center1">
+  </header>
+  <body>
+    <nav class = "navi">
+    <ul class ="a">
+      <li  class ="a"><a href="homepage.html" class="l">Home</a></li>
+      <li  class ="a"><a href="weapons.html" class="l">Weapons Guide</a></li>
+      <li  class ="a"><a href="Monsters.html" class="l">Monster Catalogue</a></li>
+      <li class ="a"><a href="test.html" class="l">About</a></li>
+</ul>
+</nav>
+<main>
+<div>
+	  <form action= "mailto:do.kyle@oaklandcc.edu" method="post">
+
+	  <fieldset>
+			<h1>Rate the Website</h1>
+			<h3>Was The website informative?</h3>
+			<input type="radio" name="name1" id="nameA" value="nameA">
+	    <label for="nameA">Yes</label>
+
+	    <input type="radio" name="name1" id="nameB" value="nameB">
+	    <label for="nameB">No</label>
+			<input type="radio" name="name1" id="nameBq" value="nameBq">
+			<label for="nameBq">I think I know even less about Monster Hunter now.</label><br>
+<h3>Did the website look nice?</h3>
+			<input type="radio" name="name2" id="nameAw" value="nameAw">
+			<label for="nameAw">It looked beautiful</label>
+			<input type="radio" name="name2" id="nameC" value="nameC">
+			<label for="nameC">It was alright</label>
+			<input type="radio" name="name2" id="nameD" value="nameD">
+			<label for="nameD">Your website made me blind</label><br>
+<h3>Did the website have any errors?</h3>
+			<input type="radio" name="name3" id="nameE" value="nameE">
+			<label for="nameE">Yes</label>
+			<input type="radio" name="name3" id="nameF" value="nameF">
+			<label for="nameF">No</label><br><br>
+	    <label for="comments">If so, could you list some?</label>
+	   <input type="text" id="text1" name="text01"> <br>
+		 <label for="comments">Any other comments?</label>
+		<input type="text" id="text1" name="text0"> <br>
+		<input type= "submit" value="submit">
+ <input type= "reset" value="reset">
+	</fieldset>
+	  </form>
+		</div>
+</main>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+.itembox{
+  background-color: rgba(27,27,27,.5);
+  border: 5px outset black;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+.image{
+  background-color: rgba(39,39,39,255);
+  border-radius: 25px;
+  padding: 3px;
+}

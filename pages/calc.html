@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+<meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="bannerq.css">
+    <link rel="stylesheet" href="header.css">
+<style>
+
+.left{
+  float: left;
+   margin-right: 15px;
+   margin-left: 15px;
+}
+
+.right{
+  float: right;
+  margin-left: 15px;
+}
+article{
+  display: block;
+width: 100%;
+padding: 10px;
+margin-top: 35px;
+}
+.goho-m{
+  list-style-type: none;
+      margin: 0;
+      padding: 0;
+}
+.goho-mc{
+  display: inline;
+}
+.space{
+  margin-top: 25px;
+}
+
+  </style>
+<script src="calc.js"></script>
+  </head>
+
+  <header>
+    <nav class="navbar">
+      <!-- logo -->
+      <div class="logo">Monster Hunter Rise: Sunbreak Tips and Tricks by Kyle Do</div>
+
+      <!-- navigation menu -->
+      <div class="nav-links">
+        <!-- mobile checkbox hack -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+        <!-- Navigation links for construction company -->
+        <div class="menu">
+          <li><a href="homepage.html">Home</a></li>
+          <li><a href="weapons.html">My Weapon builds</a></li>
+          <li class="services">
+            <a href="Monsters.html">Favorite Monsters</a>
+            <!-- Dropdown menu starts here -->
+            <ul class="dropdown">
+              <li><a href="#">Gore Magala</a></li>
+              <li><a href="#">Shagaru Magala</a></li>
+              <li><a href="#">Malzeno</a></li>
+              <li><a href="#">Valstrax</a></li>
+            </ul>
+          </li>
+          <li><a href="test.html">Clips</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <body>
+<main class = "main1">
+<h1>Welcome Hunters!</h1>
+
+
+<article>
+<h3>Elgado Outpost</h3>
+<img src="assets/Elgado1.png" class ="center">
+<p>Welcome to Kamura Village hunter. This is where you'll make your start as a hunter. This tranquil ninja village will serve as your home base as you climb the ranks. It's packed with all the facilities and services a hunter could need. Go and check it out.</P>
+  <label>Level</label><input type="number" id="Level">
+  <label>Nature</label><input type="text" id="nature">
+  <div class="space">
+  <ul>
+<li><label>HP</label><label id="BaseHP"></label><input type="number" id="IV1"><input type="number" id="EV1"></li>
+<li><label>Attack</label><label id="BaseAtk"></label><input type="text" id="IV2"><input type="text" id="EV2"></li>
+<li><label>Defense</label><label id="BaseDef"></label><input type="text" id="IV3"><input type="text" id="EV3"></li>
+<li><label>Special Attack</label><label id="BaseSpAtk"></label><input type="text" id="IV4"><input type="text" id="EV4"></li>
+<li><label>Special Defense</label ><label id="BaseSpDef"></label><input type="text" id="IV5"><input type="text" id="EV5"></li>
+<li><label>Speed</label><label id="BaseSpd"></label><input type="text" id="IV6"><input type="text" id="EV6"></li>
+</ul>
+</div>
+<button type="Submit" onclick="Stats()" Value="Calculate Stats">Calculate Stats</button>
+
+<ul>
+<li><label>HP</label> <label id="FinalHP"></label></li>
+<li><label>Attack</label> <label id="FinalAtk"></label></li>
+<li><label>Defense</label> <label id="FinalDef"></label></li>
+<li><label>Special Attack</label > <label id="FinalSpAtk"></label></li>
+<li><label>Special Attack</label> <label id="FinalSpDef"></label></li>
+<li><label>Speed</label> <label id="FinalSpd"></label ></li>
+</ul>
+<article>
+<img src="" id="facilities">
+<p id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</article>
+</main>
+  </body>
+</html>

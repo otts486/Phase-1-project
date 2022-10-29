@@ -1,0 +1,151 @@
+header{
+  display: block;
+  background-image: url("assets/MHRBanner.png");
+  height: 175px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: -17px;
+
+}
+
+h2{
+  text-align: center;
+  font-size: 20px;
+  background-color: blue;
+  color: orange;
+}
+
+.navi{
+  display: block;
+  background-color: blue;
+  margin-left: -1px;
+  width: 100%;
+}
+h1{
+  text-align: center;
+  font-weight: bold;
+
+}
+h3{
+text-align: center;
+}
+.center1 {
+  position: absolute;
+  top: 25%;
+  left: 47%;
+  width: 315px;
+  height: 179px;
+  margin-top: -180px;
+  margin-left: -89px;
+
+}
+.l:link, .l:visited{
+  color: orange;
+  background-color: #3f36f4;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.l:hover, .l:active {
+  background-color: blue;
+}
+
+body{
+  background: url("assets/KamuraVillage.jpg");
+ height: 100%;
+ margin: 0;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center;
+}
+main {
+  display: block;
+  height: 2000px;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 25px;
+}
+.main1{
+  display: block;
+  height: 7000px;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 25px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+.image2 {
+  width: 100%;
+
+}
+article{
+  display: block;
+width: 50%;
+padding: 10px;
+margin: auto;
+}
+.image{
+  background-color: rgba(39,39,39,255);
+  border-radius: 25px;
+  padding: 3px;
+  display: inline;
+
+}
+
+a.wep:hover{
+  opacity: .5;
+}
+.con{
+  display: inline-block;
+}
+.ac {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ab {
+  display: inline;
+}
+#wrap {
+    width:75%;
+    background-color: rgba(27,27,27,.5);
+    border:5px solid black;
+    margin: auto;
+}
+#nav {
+    margin:0;
+    padding:5px 0;
+    text-align:center;/*center the list items*/
+    list-style:none;
+}
+#nav li {
+    display: -moz-inline-box;/* for FF2 (inline-box must be used for shrink wrapping)*/
+    display:inline-block;/* for modern browsers */
+}
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.g{
+  text-align: left;
+  margin-top: -40px;
+}

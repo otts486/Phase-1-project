@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+<meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="bannerq.css">
+    <link rel="stylesheet" href="header.css">
+<style>
+.article0{
+  display: block;
+width: 100%;
+padding: 10px;
+margin-top: 35px;
+}
+.bold{
+  font-weight: bold;
+}
+td{
+  height: auto;
+}
+.hide{
+  display: none;
+}
+</style>
+  </head>
+
+  <header>
+    <nav class="navbar">
+      <!-- logo -->
+      <div class="logo">Monster Hunter Rise: Sunbreak</div>
+
+      <!-- navigation menu -->
+      <div class="nav-links">
+        <!-- mobile checkbox hack -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+        <!-- Navigation links for construction company -->
+        <div class="menu">
+          <li><a href="homepage.html">Home</a></li>
+          <li><a href="weapons.html">Weapons guide</a></li>
+          <li class="services">
+            <a href="Monsters.html">Monster Catalogue</a>
+            <!-- Dropdown menu starts here -->
+            <ul class="dropdown">
+              <li><a href="#">Gore Magala</a></li>
+              <li><a href="#">Shagaru Magala</a></li>
+              <li><a href="#">Malzeno</a></li>
+              <li><a href="#">Valstrax</a></li>
+            </ul>
+          </li>
+          <li><a href="test.html">Pricing</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <body>
+<main>
+
+
+      <h1>Welcome to the Equipment Box</h1>
+      <article>
+    <p>In order to hunt monsters you'll need a weapon to hunt them with. Luckily, Monster Hunter has you well prepared with 14 different weapon types to choose from so take your pick.</P>
+        </article>
+        <div id="wrap">
+
+          <ul id ="nav">
+            <li><button class ="wep" onclick="SwordShield()"><img src="assets/icon_SWSH.png" class="image"><br>Sword&Shield</button></li>
+            <li><button class ="wep" onclick="Greatsword()"><img src="assets/icon_GS.png" class="image"><br>Great Sword</button></li>
+              <li><button class ="wep" onclick="Longsword()"><img src="assets/icon_LS.png" class="image"><br>Long Sword</button></li>
+              <li><button class ="wep" onclick="DualBlades()"><img src="assets/icon_DB.png" class="image"><br>Dual Blades</button></li>
+              <li><button class ="wep" onclick="Hammer()">><img src="assets/icon_Hammer.png" class="image"><br>Hammer</button></li>
+              <li><button class ="wep" onclick="HuntingHorn()"><img src="assets/icon_HH.png" class="image"><br>Hunting Horn</button></li>
+              <li><button class ="wep" onclick="Lance()"><img src="assets/icon_Lance.png" class="image"><br>Lance</button></li>
+              <li><button class ="wep" onclick="GunLance()"><img src="assets/icon_GL.png" class="image"><br>Gunlance</button></li>
+              <li><button class ="wep" onclick="SwitchAxe()"><img src="assets/icon_SA.png" class="image"><br>Switch Axe</button></li>
+              <li><button class ="wep" onclick="ChargeBlade()"><img src="assets/icon_CB.png" class="image"><br>Charge Blade</button></li>
+            <li><button class ="wep" onclick="InsectGlaive()"><img src="assets/icon_IG.png" class="image"><br>Insect Glaive</button></li>
+  </ul>
+  <br><br>
+  <ul id ="nav">
+    <li><button class ="wep" onclick="LBG()"><img src="assets/icon_LBG.png"  class="image"><br>Light Bowgun</button></li>
+      <li><button class ="wep" onclick="HBG()"><img src="assets/icon_HBG.png" class="image"><br>Heavy Bowgun</button></li>
+      <li><button class ="wep" onclick="Bow()"><img src="assets/icon_bow.png" class="image"><br>Bow</button></li>
+  </ul>
+        </div>
+        <article class="article0">
+          <h1 id="header1"></h1>
+          <img src="" class ="center" id="hi">
+        <p id="WeaponDesc"></p>
+            </article>
+    <br><br>
+    <h2 id="header4"></h2>
+    <iframe width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="tutorial"></iframe>
+    <br><br>
+    <h2 id="heve"></h2>
+    <h2 id="hello"></h2>
+    <ul class="hori" id="builds" onload="hide()">
+      <li><button id="boy" onclick="fireBuild()"></button></li>
+      <li><button id="build2" onclick="WaterBuild()"></button></li>
+      <li><button id="build3" onclick="IceBuild()"></button></li>
+      <li><button id="build4" onclick="ThunderBuild()"></button></li>
+      <li><button id="build5" onclick="DragonBuild()"></button></li>
+    </ul>
+    <table>
+      <tr>
+        <th id="Wep"></th>
+        <th id="helm"></th>
+        <th id="Chest"></th>
+        <th id="arms"></th>
+        <th id="Waist"></th>
+        <th id="pants"></th>
+      </tr>
+      <tr>
+        <td><img src="" class="image2" id="wepImage"></td>
+        <td ><img src="" class="image2" id="HelmImage"></td>
+        <td ><img src="" class="image2" id="ChestImage"></td>
+        <td ><img src="" class="image2" id="ArmImage"></td>
+        <td ><img src="" class="image2" id="WaistImage"></td>
+        <td ><img src="" class="image2" id="PantsImage"></td>
+      </tr>
+      <tr>
+    <th id="M1"></th>
+    <th id="M2"></th>
+    <th id="M3"></th>
+    <th id="M4"></th>
+    <th id="M5"></th>
+    <th id="M6"></th>
+      </tr>
+      <tr>
+        <td>
+    
+    <ul class ="g">
+      <br>
+      <li id="wepm1"></li>
+      <li id="wepm2"></li>
+      <li id="wepm3"></li>
+      <li id="wepm4"></li>
+    </ul>
+    
+        </td>
+        <td>
+          <ul>
+              <li id="hm1"></li>
+              <li id="hm2"></li>
+              <li id="hm3"></li>
+              <li id="hm4"></li>
+          </ul>
+          </td>
+        <td>
+          <ul>
+              <li id="cm1"></li>
+              <li id="cm2"></li>
+              <li id="cm3"></li>
+              <li id="cm4"></li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+              <li id="am1"></li>
+              <li id="am2"></li>
+              <li id="am3"></li>
+              <li id="am4"></li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li id="wm1"></li>
+            <li id="wm2"></li>
+            <li id="wm3"></li>
+            <li id="wm4"></li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+              <li id="lm1"></li>
+              <li id="lm2"></li>
+              <li id="lm3"></li>
+              <li id="lm4"></li>
+          </ul>
+        </td>
+      </tr>
+    
+    
+    </table>
+    <br><br>
+    <h2 style="text-align: center;" id="heading5.1"></h2>
+      <h3 id ="Armor_Skills"></h3>
+      <ul>
+          <li id="zero"></li>
+          <li id="AS2"></li>
+          <li id="AS3"></li>
+          <li id="AS4"></li>
+          <li id="AS5"></li>
+          <li id="AS6"></li>
+          <li id="AS7"></li>
+          <li id="AS8"></li>
+          <li id="AS9"></li>
+          <li id="AS10"></li>
+          <li id="AS11"></li>
+          <li id="AS12"></li>
+          <li id="AS13"></li>
+          <li id="AS14"></li>
+          <li id="AS15"></li>
+          <li id="AS16"></li>
+          <li id="AS17"></li>
+          <li id="AS18"></li>
+          <li id="AS19"></li>
+          <li id="AS20"></li>
+      </ul>
+      
+      <h3 id="Rampage_Dec"></h3>
+        <ul>
+          <li id="DecorationSkill"></li>
+        </ul>
+      
+      <h3 id="SwitchSkills"></h3>
+      <h4 id ="redScroll"></h4>
+        <ul>
+          <li id="SS1"></li>
+          <li id="SS2"></li>
+          <li id="SS3"></li>
+          <li id="SS4"></li>
+          <li id="SS5"></li>
+          <li id="SS6"></li>
+        </ul>
+        <h4 id ="blueScroll"></h4>
+        <ul>
+          <li id="SSB1"></li>
+          <li id="SSB2"></li>
+          <li id="SSB3"></li>
+          <li id="SSB4"></li>
+          <li id="SSB5"></li>
+          <li id="SSB6"></li>
+        </ul>
+          </article>
+</main>
+<script src="ItemBox.js">
+  
+</script>
+  </body>
+</html>

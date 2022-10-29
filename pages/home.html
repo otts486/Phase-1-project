@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+<meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="bannerq.css">
+    <link rel="stylesheet" href="header.css">
+<style>
+
+.left{
+  float: left;
+   margin-right: 15px;
+   margin-left: 15px;
+}
+
+.right{
+  float: right;
+  margin-left: 15px;
+}
+article{
+  display: block;
+width: 100%;
+padding: 10px;
+margin-top: 35px;
+}
+.goho-m{
+  list-style-type: none;
+      margin: 0;
+      padding: 0;
+}
+.goho-mc{
+  display: inline;
+}
+.space{
+  margin-top: 25px;
+}
+
+  </style>
+<script src="home.js"></script>
+  </head>
+
+  <header>
+    <nav class="navbar">
+      <!-- logo -->
+      <div class="logo">Monster Hunter Rise: Sunbreak Tips and Tricks by Kyle Do</div>
+
+      <!-- navigation menu -->
+      <div class="nav-links">
+        <!-- mobile checkbox hack -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+        <!-- Navigation links for construction company -->
+        <div class="menu">
+          <li><a href="homepage.html">Home</a></li>
+          <li><a href="weapons.html">My Weapon builds</a></li>
+          <li class="services">
+            <a href="Monsters.html">Favorite Monsters</a>
+            <!-- Dropdown menu starts here -->
+            <ul class="dropdown">
+              <li><a href="#">Gore Magala</a></li>
+              <li><a href="#">Shagaru Magala</a></li>
+              <li><a href="#">Malzeno</a></li>
+              <li><a href="#">Valstrax</a></li>
+            </ul>
+          </li>
+          <li><a href="test.html">Cantact Us</a></li>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <body>
+<main class = "main1">
+<h1>Welcome Hunters!</h1>
+
+
+<article>
+<h3>Elgado Outpost</h3>
+<img src="assets/Elgado1.png" class ="center">
+<p>Welcome to the Elgado Outpost hunter. Faraway from the rural ninja village of Kamura, the outpost is part of the kingdom built to monitor the crater which recently reopened causing monsters to run amok. This staunch Military outpost will serve as your home base as you investigate the strange happenings. Feel free to acquaint yourself with the facilities.</P>
+<div class="space">
+  <ul class="goho-m">
+  <li  class="goho-mc"><button onclick="Smithy()">Smithy</button></li>
+  <li class="goho-mc"><button onclick="Quest()">Quest Board</button></li>
+  <li class="goho-mc"><button onclick="Market()">Shops</button></li>
+  <li class="goho-mc"><button onclick="dango()">Canteen</button></li>
+  <li class="goho-mc"><button onclick="Buddy()">Buddies/Trader</button></li>
+  <li class="goho-mc"><button onclick="arena()">Arena</button></li>
+  <li class="goho-mc"><button onclick="Bahari()">Bahari</button></li>
+</ul>
+</div>
+<article>
+<img src="" id="facilities">
+<p id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</article>
+</main>
+  </body>
+</html>
